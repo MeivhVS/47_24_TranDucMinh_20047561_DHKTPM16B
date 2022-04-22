@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../css/mainpagecss.css">
+    <script src="../js/MainPageJS.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <ul>
+                <li>
+                    <input type="search" placeholder="Nhập mặt hàng cần tìm">
+                    <button>Tìm</button>
+                </li>
+                
+                <li><button class="btn_Login" onclick="openFormLogin()">Đăng nhập</button></li>
+                <li><button class="btn_SignUp" onclick="openFormSignUp()">Đăng kí</button></li>
+                <li>
+                    <h3>Hotline: 0912345678</h3>
+                    <p>(Từ thứ 2 đến thứ chủ nhật)</p>
+                </li>
+                <li><a href=""></a></li> 
+            </ul>
+        </div>
+    </header>
+    
+    <nav class="menu_Nav">
+        <ul>
+            <li><a href="">Thiết bị
+                    <div class="menu_ThietBi">
+                        <ul>
+                            <li><button onclick="scrollLoa()">Loa</button></li>
+                            <li><button onclick="scrollCS()">Công suất</button></li>
+                            <li><button onclick="scrollAmply()">Amply</button></li>
+                            <li><button onclick="scrollMixer()">Mixer</button></li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li><a href="">Tai nghe</a></li>
+            <li><a href="">Phụ kiện</a></li>
+            <li><a href="">Giỏ hàng</a></li>
+        </ul>
+    </nav>
+
+    <div class="loa_B">
+        <h3>Loa</h3>
+        <ul>
+            <li><button><img src="../img/Loa/Loa1.png" width="292px" height="230px">Loa 1</button></li>
+            <li><button><img src="../img/Loa/Loa2.jpg" width="292px" height="230px">Loa 2</button></li>
+            <li><button><img src="../img/Loa/Loa3.jpg" width="292px" height="230px">Loa 3</button></li>
+            <li><button><img src="../img/Loa/Loa4.jpg" width="292px" height="230px">Loa 4</button></li>
+            <li><button><img src="../img/Loa/Loa5.jpg" width="292px" height="230px">Loa 5</button></li>
+        </ul>
+    </div>
+
+    <div class="cS">
+        <h3>Công suất</h3>
+        <ul>
+            <li><button><img src="../img/CongSuat/CS1.jpg" width="292px" height="230px">Công suất 1</button></li>
+            <li><button><img src="../img/CongSuat/CS2.jpg" width="292px" height="230px">Công suất 2</button></li>
+            <li><button><img src="../img/CongSuat/CS3.jpg" width="292px" height="230px">Công suất 3</button></li>
+            <li><button><img src="../img/CongSuat/CS4.jpg" width="292px" height="230px">Công suất 4</button></li>
+            <li><button><img src="../img/CongSuat/CS5.jpg" width="292px" height="230px">Công suất 5</button></li>
+        </ul>
+    </div>
+
+    <div class="amply">
+        <h3>Amply</h3>
+        <ul>
+            <li><button><img src="../img/Amply/amply1.jpg" width="292px" height="230px">Amply 1</button></li>
+            <li><button><img src="../img/Amply/amply2.jpg" width="292px" height="230px">Amply 2</button></li>
+            <li><button><img src="../img/Amply/amply3.jpg" width="292px" height="230px">Amply 3</button></li>
+            <li><button><img src="../img/Amply/amply4.jpg" width="292px" height="230px">Amply 4</button></li>
+            <li><button><img src="../img/Amply/amply5.jpg" width="292px" height="230px">Amply 5</button></li>
+        </ul>
+    </div>
+
+    <div class="mixer">
+        <h3>Mixer</h3>
+        <ul>
+            <li><button><img src="../img/Mixer/Mixer1.jpg" width="292px" height="230px">Mixer 1</button></li>
+            <li><button><img src="../img/Mixer/Mixer2.jpg" width="292px" height="230px">Mixer 2</button></li>
+            <li><button><img src="../img/Mixer/Mixer3.jpg" width="292px" height="230px">Mixer 3</button></li>
+            <li><button><img src="../img/Mixer/Mixer4.jpg" width="292px" height="230px">Mixer 4</button></li>
+            <li><button><img src="../img/Mixer/Mixer5.jpg" width="292px" height="230px">Mixer 5</button></li>
+        </ul>
+    </div>
+
+    <div class="taiNghe">
+        <h3>Tai nghe</h3>
+        <ul>
+            <li><button><img src="../img/TaiNghe/TaiNghe1.jpg" width="292px" height="230px">Tai nghe 1</button></li>
+            <li><button><img src="../img/TaiNghe/TaiNghe2.jpg" width="292px" height="230px">Tai nghe 2</button></li>
+            <li><button><img src="../img/TaiNghe/TaiNghe3.jpg" width="292px" height="230px">Tai nghe 3</button></li>
+            <li><button><img src="../img/TaiNghe/TaiNghe4.jpg" width="292px" height="230px">Tai nghe 4</button></li>
+            <li><button><img src="../img/TaiNghe/TaiNghe5.jpg" width="292px" height="230px">Tai nghe 5</button></li>
+        </ul>
+    </div>
+
+    <div class="micro">
+       <h3>Micro</h3>
+        <ul>
+            <li><button><img src="../img/Micro/mic1.jpg" width="292px" height="230px">Micro 1</button></li>
+            <li><button><img src="../img/Micro/mic2.jpg" width="292px" height="230px">Micro 2</button></li>
+            <li><button><img src="../img/Micro/mic3.jpg" width="292px" height="230px">Micro 3</button></li>
+            <li><button><img src="../img/Micro/mic4.jpg" width="292px" height="230px">Micro 4</button></li>
+            <li><button><img src="../img/Micro/mic5.jpg" width="292px" height="230px">Micro 5</button></li>
+        </ul>
+    </div>
+
+    <div class="form-Login" id="formDangNhap">
+        <form action="" class="form-Login-container">
+          <h1>Đăng nhập</h1>
+      
+          <label for="username"><b>Tài khoản</b></label>
+          <input type="text" placeholder="Nhập tài khoản" name="email" required>
+      
+          <label for="psw"><b>Mật khẩu</b></label>
+          <input type="password" placeholder="Nhập mật khẩu" name="psw" required>
+      
+          <button type="submit" class="btn">Đăng nhập</button>
+          <button type="button" class="btn cancel" onclick="closeFormLogin()">Đóng</button>
+        </form>
+    </div>
+
+    <div class="form-SignUp" id="formDangKi">
+        <form action="" class="form-SignUp-container">
+          <h1>Đăng kí</h1>
+      
+          <label for="username"><b>Tài khoản</b></label>
+          <input type="text" placeholder="Nhập tài khoản" name="email" required>
+      
+          <label for="psw"><b>Mật khẩu</b></label>
+          <input type="password" placeholder="Nhập mật khẩu" name="psw" required>
+
+          <label for="re-psw"><b>Nhập lại mật khẩu</b></label>
+          <input type="password" placeholder="Nhập lại mật khẩu" name="psw" required>
+      
+          <button type="submit" class="btn">Đăng kí</button>
+          <button type="button" class="btn cancel" onclick="closeFormSignUp()">Đóng</button>
+        </form>
+    </div>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

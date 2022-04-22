@@ -1,0 +1,247 @@
+*{
+    margin: 0; padding: 0px;
+    box-sizing: border-box;
+}
+
+.header ul {
+    background-color: rgb(7, 7, 7);
+    list-style: none;
+    display: flex;
+}
+
+.header ul li {
+    margin: 20px;
+    color: white;
+}
+
+.header ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    color: brown;
+    
+}
+
+.menu_Nav{
+    background-color: rgb(203, 182, 66);
+}
+
+.menu_Nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu_Nav ul li{
+    align-items: center;
+    margin: 10px;
+}
+
+.menu_Nav ul li :first-child{
+    margin-right: 30px;
+}
+
+.menu_Nav ul li :last-child{
+    float: right;
+}
+
+.menu_ThietBi {
+    display: none;
+    background-color: rgb(203, 182, 66);
+}
+
+.menu_ThietBi ul button{
+  background-color: rgb(203, 182, 66);
+}
+
+.menu_Nav ul li:hover .menu_ThietBi{
+    display: block;
+    list-style: none;
+    position: absolute;
+}
+
+
+
+body {
+    background-color: rgb(249, 249, 249);
+}
+  
+  /*Form Login*/
+  .form-Login {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  .form-Login-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .form-Login-container input[type=text], .form-Login-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .form-Login-container input[type=text]:focus, .form-Login-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form-Login-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  .form-Login-container .cancel {
+    background-color: red;
+  }
+  
+  .form-Login-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  /*Form Sign Up*/
+  .form-SignUp {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  .form-SignUp-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .form-SignUp-container input[type=text], .form-SignUp-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .form-SignUp-container input[type=text]:focus, .form-SignUp-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form-SignUp-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  .form-SignUp-container .cancel {
+    background-color: red;
+  }
+  
+  .form-SignUp-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }  
+
+  .btn_Login {
+      background-color: black;
+      color: white;
+  }
+
+  .btn_SignUp{
+    background-color: black;
+    color: white;
+  }
+
+/*Main body*/
+.loa_B{
+  margin-top: 35px;
+}
+
+.loa_B h3{
+  background-color: rgb(201, 201, 122);
+}
+
+.loa_B ul{
+  display: flex;
+}
+
+.mixer{
+  margin-top: 35px;
+}
+
+.mixer h3{
+  background-color: rgb(201, 201, 122);
+}
+
+.mixer ul{
+  display: flex;
+}
+
+.micro{
+  margin-top: 35px;
+}
+
+.micro h3{
+  background-color: rgb(201, 201, 122);
+}
+
+.micro ul{
+  display: flex;
+}
+
+.taiNghe{
+  margin-top: 35px;
+}
+
+.taiNghe h3{
+  background-color: rgb(201, 201, 122);
+}
+
+.taiNghe ul{
+  display: flex;
+}
+
+.amply{
+  margin-top: 35px;
+}
+
+.amply h3{
+  background-color: rgb(201, 201, 122);
+}
+
+.amply ul{
+  display: flex;
+}
+
+.cS{
+  margin-top: 35px;
+}
+
+.cS h3{
+  background-color: rgb(201, 201, 122);
+}
+
+.cS ul{
+  display: flex;
+}
